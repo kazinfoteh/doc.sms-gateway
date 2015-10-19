@@ -4,7 +4,7 @@
  * Пример реализации отправки SMS сообщений.
  *
  * @author  КазИнфоТех АЦП <support@kazinfoteh.kz>
- * @link    http://docs.kazinfoteh.kz/xml/outbox.html
+ * @link    http://docs.kazinfoteh.kz/xml/outbox/
  */
 
 // Логин и пароль, полученные при регистрации:

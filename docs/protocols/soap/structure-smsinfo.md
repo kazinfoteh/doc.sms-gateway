@@ -1,6 +1,6 @@
 # Интегрированные решения SOAP: структура SMSInfo
 
-Структура `SMSInfo` используется в ответе от методов [`GetAbonents`](/protocols/soap/method-getabonents.html) (массив из структур), [`GetInfoByID`](/protocols/soap/method-getinfobyid.html), [`GetBulkInfoByID`](/protocols/soap/method-getbulkinfobyid.html) (массив из структур). В данной структуре хранится информация по запрашиваемым сообщениям.
+Структура `SMSInfo` используется в ответе от методов [`GetAbonents`](/protocols/soap/method-getabonents/) (массив из структур), [`GetInfoByID`](/protocols/soap/method-getinfobyid/), [`GetBulkInfoByID`](/protocols/soap/method-getbulkinfobyid/) (массив из структур). В данной структуре хранится информация по запрашиваемым сообщениям.
 
 ## Поля структуры:
 

@@ -1,6 +1,6 @@
 # Интегрированные решения SOAP: структура IDSMS
 
-Структура `IDSMS` используется в параметрах методов [`GetInfoByID`](/protocols/soap/method-getinfobyid.html) и [`GetBulkInfoByID`](/protocols/soap/method-getbulkinfobyid.html) (массив из структур). В данной структуре хранится `ID` сообщений, по которым вам надо получить информацию или статус сообщения.
+Структура `IDSMS` используется в параметрах методов [`GetInfoByID`](/protocols/soap/method-getinfobyid/) и [`GetBulkInfoByID`](/protocols/soap/method-getbulkinfobyid/) (массив из структур). В данной структуре хранится `ID` сообщений, по которым вам надо получить информацию или статус сообщения.
 
 ## Поля структуры:
 

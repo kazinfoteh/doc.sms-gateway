@@ -8,7 +8,7 @@
 ---------|------------------|---------------------------------
 login    | AnsiString       | логин
 password | AnsiString       | пароль
-smsarray | Массив SMSMArray | [структура SMSM](/protocols/soap/structure-smsm.html)
+smsarray | Массив SMSMArray | [структура SMSM](/protocols/soap/structure-smsm/)
 
 ## Возвращаемые значения:
 
@@ -16,4 +16,4 @@ smsarray | Массив SMSMArray | [структура SMSM](/protocols/soap/st
 public SMSResultArray SendSMSService.SendBulkMessage(AnsiString login, AnsiString password, SMSMArray smsarray);
 ```
 
-Смотрите [описание структуры SMSResult](/protocols/soap/structure-smsresult.html).
+Смотрите [описание структуры SMSResult](/protocols/soap/structure-smsresult/).

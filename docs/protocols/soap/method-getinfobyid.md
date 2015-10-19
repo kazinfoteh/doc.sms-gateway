@@ -8,7 +8,7 @@
 ---------|-----------------|---------------------------------
 login    | AnsiString      | логин
 password | AnsiString      | пароль
-ids      | Структура IDSMS | [структура IDSMS](/protocols/soap/structure-idsms.html)
+ids      | Структура IDSMS | [структура IDSMS](/protocols/soap/structure-idsms/)
 
 ## Возвращаемые значения:
 
@@ -16,4 +16,4 @@ ids      | Структура IDSMS | [структура IDSMS](/protocols/soap
 public SMSInfo SendSMSService.GetInfoByID(AnsiString login, AnsiString password, IDSMS ids);
 ```
 
-Смотрите [описание структуры SMSInfo](/protocols/soap/structure-smsinfo.html).
+Смотрите [описание структуры SMSInfo](/protocols/soap/structure-smsinfo/).

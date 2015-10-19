@@ -1,6 +1,6 @@
 # Интегрированные решения SOAP: структура SMSResult
 
-Структура `SMSResult` используется в ответе от методов [`SendMessage`](/protocols/soap/method-sendmessage.html) и [`SendBulkMessage`](/protocols/soap/method-sendbulkmessage.html) (массив из структур). В данной структуре хранятся результаты отправки сообщений.
+Структура `SMSResult` используется в ответе от методов [`SendMessage`](/protocols/soap/method-sendmessage/) и [`SendBulkMessage`](/protocols/soap/method-sendbulkmessage/) (массив из структур). В данной структуре хранятся результаты отправки сообщений.
 
 ## Поля структуры:
 

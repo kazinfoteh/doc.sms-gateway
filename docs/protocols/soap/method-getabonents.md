@@ -23,4 +23,4 @@ GMT+0600 (Asia/Almaty)
 public SMSAbonentsArray SendSMSService.GetAbonents(AnsiString login, AnsiString password, AnsiString begind, AnsiString endd);
 ```
 
-Смотрите [описание структуры SMSInfo](/protocols/soap/structure-smsinfo.html).
+Смотрите [описание структуры SMSInfo](/protocols/soap/structure-smsinfo/).

@@ -18,4 +18,4 @@ onlynew  | AnsiString | 0 – только новые сообщения, 1 — 
 public SmsInboxArray SendSMSService.GetInboxMessage(AnsiString login, AnsiString password, AnsiString begind, AnsiString endd, AnsiString onlynew);
 ```
 
-Смотрите [описание структуры SMSInbox](/protocols/soap/structure-smsinbox.html).
+Смотрите [описание структуры SMSInbox](/protocols/soap/structure-smsinbox/).

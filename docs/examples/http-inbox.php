@@ -2,9 +2,9 @@
 
 /**
  * Пример реализации приема SMS сообщений.
- * 
+ *
  * @author  КазИнфоТех АЦП <support@kazinfoteh.kz>
- * @link    http://docs.kazinfoteh.kz/http/inbox.html
+ * @link    http://docs.kazinfoteh.kz/http/inbox/
  */
 
 // Логин и пароль, полученные при регистрации:

@@ -17,4 +17,4 @@ endd     | AnsiString | дата и время конца периода
 public SMSReport SendSMSService.GetReport(AnsiString login, AnsiString password, AnsiString begind, AnsiString endd);
 ```
 
-Смотрите [описание структуры SMSReport](/protocols/soap/structure-smsreport.html).
+Смотрите [описание структуры SMSReport](/protocols/soap/structure-smsreport/).

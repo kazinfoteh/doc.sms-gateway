@@ -8,7 +8,7 @@
 ---------|-------------------|---------
 login    | AnsiString        | логин
 password | AnsiString        | пароль
-idsms    | Массив IDSMSArray | [структура IDSMS](/protocols/soap/structure-idsms.html)
+idsms    | Массив IDSMSArray | [структура IDSMS](/protocols/soap/structure-idsms/)
 
 ## Возвращаемые значения:
 
@@ -16,4 +16,4 @@ idsms    | Массив IDSMSArray | [структура IDSMS](/protocols/soap/
 public SMSAbonentsArray SendSMSService.GetBulkInfoByID(AnsiString login, AnsiString password, IDSMSArray idsms);
 ```
 
-Смотрите [описание структуры SMSInfo](/protocols/soap/structure-smsinfo.html).
+Смотрите [описание структуры SMSInfo](/protocols/soap/structure-smsinfo/).

@@ -15,10 +15,10 @@
 
 Мы предоставляем доступ к нашему SMS шлюзу посредством интеграции:
 
-* [SMPP](/protocols/smpp.html)
-* [HTTP](/protocols/http.html)
-* [XML](/protocols/xml.html)
-* [SOAP](/protocols/soap.html)
+* [SMPP](/protocols/smpp/)
+* [HTTP](/protocols/http/)
+* [XML](/protocols/xml/)
+* [SOAP](/protocols/soap/)
 
 ## Вам нужно специальное решение?
 

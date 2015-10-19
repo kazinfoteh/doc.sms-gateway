@@ -25,23 +25,23 @@
 
 ## Методы
 
-* [GetReport](/protocols/soap/method-getreport.html)
-* [GetAbonents](/protocols/soap/method-getabonents.html)
-* [SendMessage](/protocols/soap/method-sendmessage.html)
-* [GetInfoByID](/protocols/soap/method-getinfobyid.html)
-* [GetBulkInfoByID](/protocols/soap/method-getbulkinfobyid.html)
-* [SendBulkMessage](/protocols/soap/method-sendbulkmessage.html)
-* [GetInboxMessage](/protocols/soap/method-getinboxmessage.html)
+* [GetReport](/protocols/soap/method-getreport/)
+* [GetAbonents](/protocols/soap/method-getabonents/)
+* [SendMessage](/protocols/soap/method-sendmessage/)
+* [GetInfoByID](/protocols/soap/method-getinfobyid/)
+* [GetBulkInfoByID](/protocols/soap/method-getbulkinfobyid/)
+* [SendBulkMessage](/protocols/soap/method-sendbulkmessage/)
+* [GetInboxMessage](/protocols/soap/method-getinboxmessage/)
 
 
 ## Структуры
 
-* [SMSResult](/protocols/soap/structure-smsresult.html)
-* [SMSInfo](/protocols/soap/structure-smsinfo.html)
-* [SMSReport](/protocols/soap/structure-smsreport.html)
-* [SMSM](/protocols/soap/structure-smsm.html)
-* [IDSMS](/protocols/soap/structure-idsms.html)
-* [SMSInbox](/protocols/soap/structure-smsinbox.html)
+* [SMSResult](/protocols/soap/structure-smsresult/)
+* [SMSInfo](/protocols/soap/structure-smsinfo/)
+* [SMSReport](/protocols/soap/structure-smsreport/)
+* [SMSM](/protocols/soap/structure-smsm/)
+* [IDSMS](/protocols/soap/structure-idsms/)
+* [SMSInbox](/protocols/soap/structure-smsinbox/)
 
 
 ## Массивы
