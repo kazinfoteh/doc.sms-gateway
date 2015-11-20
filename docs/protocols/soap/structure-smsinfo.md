@@ -12,9 +12,7 @@ recepient | AnsiString | номер телефона абонента
 status | AnsiString | статус сообщения
 senderId | AnsiString | SenderID сообщения
 senttime | AnsiString | Дата и время отправки сообщения
-
 receivedtime | AnsiString | Дата и время доставки/не доставки сообщения
-
 segments | Integer | Кол-во смс в сообщении
 lang | AnsiString | Язык сообщения.
 userMsgID | AnsiString | Индификатор сообщения заданный Заказчиком
