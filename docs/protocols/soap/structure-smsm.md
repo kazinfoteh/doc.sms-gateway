@@ -4,15 +4,15 @@
 
 ## Поля структуры:
 
-Имя       | Тип        | Описание
-----------|------------|---------
-recepient | AnsiString | номер телефона абонента
-senderid  | AnsiString | заголовок отправителя
-msg       | Utf8String | текст сообщения
-msgtype   | Integer    | тип сообщения
-scheduled | AnsiString | дата и время отправки сообщения
-UserMsgID | AnsiString | уникальный ID в системе провайдера
-prioritet | integer    | приоритет отправляемого сообщения
+Имя       | Тип            | Описание
+----------|----------------|---------
+recepient | AnsiString     | номер телефона абонента
+senderid  | AnsiString     | заголовок отправителя
+msg       | Utf8String     | текст сообщения
+msgtype   | Integer        | тип сообщения
+scheduled | AnsiString     | дата и время отправки сообщения
+UserMsgID | AnsiString[25] | уникальный ID в системе провайдера
+prioritet | integer        | приоритет отправляемого сообщения
 
 ### Номер телефона абонента:
 
