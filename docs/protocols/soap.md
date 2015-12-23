@@ -52,7 +52,7 @@
 * IDSMSArray
 * SmsInboxArray
 
-## Пример реализации на 1С:
+## Пример реализации на 1С
 
 Обертка `WSПрокси`:
 
@@ -93,4 +93,31 @@
 Результат = Прокси.GetInfoByID(Логин, Пароль, СМСкаИнфо);
 
 Сообщить("Результат запроса: " + Результат.resultCode + "; Описание: "+Результат.resultS+";  Номер абонента: " + Результат.recepient + "; Статус смс: " + Результат.status+ "; SenderID сообщения: " + Результат.senderId+ "; Время отправки: " + Результат.senttime+ "; Время доставки/не доставки: " + Результат.receivedtime+ "; Кол-во часте в СМС: " + Результат.segments+ "; Язык: " + Результат.lang+ "; MSGID: " + Результат.msgid+ "; UserMSGID: " + Результат.UserMSGID);
+```
+
+## Пример реализации на PHP
+
+Отправка SMS:
+
+```php
+define('LOGIN', 'demo');
+define('PASSWORD', 'demo');
+
+$isms = new SoapClient('https://isms.center/soap', array('connection_timeout' => 1000, 'trace' => 1, 'exception' => 1));
+
+$data = array(
+  'login' 	    => LOGIN,
+  'password'	=> PASSWORD,
+  'sms' => array(
+    'recepient'	=> '77771234567',
+    'senderid'	=> 'TEXT_MSG',
+    'msg'		=> 'Test',
+    'msgtype'	=> 0,
+    'scheduled' => '',
+    'UserMsgID' => '',
+    'prioritet' => 2,
+  ),
+);
+
+$result = $isms->SendMessage($data);
 ```
