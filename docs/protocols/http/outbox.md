@@ -1,10 +1,10 @@
 # Интегрированные решения HTTP: отправка сообщений
 
-Для того, чтобы отправить SMS, необходимо сделать запрос на адрес http://kazinfoteh.org:9501 либо https://kazinfoteh.org:9501. Мы принимаем запросы, отправленные методом `GET` или `POST` (на ваш выбор).
+Для того, чтобы отправить SMS, необходимо сделать запрос на адрес http://kazinfoteh.org:9507 либо https://kazinfoteh.org:9507. Мы принимаем запросы, отправленные методом `GET` или `POST` (на ваш выбор).
 
 Например:
 
-http://kazinfoteh.org:9501/api?action=sendmessage&username=demo&password=demo&recipient=77771234567&messagetype=SMS:TEXT&originator=INFO_KAZ&messagedata=Test+message.
+http://kazinfoteh.org:9507/api?action=sendmessage&username=demo&password=demo&recipient=77771234567&messagetype=SMS:TEXT&originator=INFO_KAZ&messagedata=Test+message.
 
 ## Параметры запроса:
 
@@ -147,4 +147,4 @@ $encoded_URL = urlencode('http://kazinfoteh.kz/continueurl.php?foo=bar');
 
 Например:
 
-http://kazinfoteh.org:9501/?action=sendmessage&messagecount=2&username=demo&password=demo&recipient0=77771234567&messagetype0=SMS:TEXT&originator0=INFO_KAZ&messagedata0=Test+1&recipient1=77051234567&messagetype1=SMS:TEXT&originator1=INFO_KAZ&messagedata1=Test+2
+http://kazinfoteh.org:9507/?action=sendmessage&messagecount=2&username=demo&password=demo&recipient0=77771234567&messagetype0=SMS:TEXT&originator0=INFO_KAZ&messagedata0=Test+1&recipient1=77051234567&messagetype1=SMS:TEXT&originator1=INFO_KAZ&messagedata1=Test+2
