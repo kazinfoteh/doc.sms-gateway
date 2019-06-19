@@ -4,7 +4,7 @@
 
 Например:
 
-http://kazinfoteh.org:9507/api?action=sendmessage&username=demo&password=demo&recipient=77771234567&messagetype=SMS:TEXT&originator=INFO_KAZ&messagedata=Test+message.
+http://kazinfoteh.org:9507/?action=sendmessage&username=demo&password=demo&recipient=77771234567&messagetype=SMS:TEXT&originator=INFO_KAZ&messagedata=Test+message.
 
 ## Параметры запроса:
 
