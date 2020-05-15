@@ -18,7 +18,7 @@
 * [HTTP](/protocols/http/)
 * [XML](/protocols/xml/)
 * [SOAP](/protocols/soap/)
-* [SOAP](/protocols/soap/)
+* [SOAP2](/protocols/soap/)
 
 ## Вам нужно специальное решение?
 
